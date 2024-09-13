@@ -15,7 +15,7 @@ class EditEmployee(BasePage):
     EDIT = (By.XPATH, '(//i[@class="oxd-icon bi-pencil-fill"])[1]')
     MIDDLE_NAME = (By.XPATH, '//input[@placeholder="Middle Name"]')
     SAVE_BUTTON = (By.XPATH, '(//button[text()=" Save "])[1]')
-    success_toast_message = (By.XPATH, "//div[@id='oxd-toaster_1']")
+
 
     try:
         # Navigating to edit employee page from dashboard page
