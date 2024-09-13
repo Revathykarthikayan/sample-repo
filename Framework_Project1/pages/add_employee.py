@@ -22,7 +22,7 @@ class AddEmployee(BasePage):
     BLOOD_GROUP = (By.XPATH, '(//div[text()="-- Select --"])[1]')
     GENDER = (By.XPATH, '//label[text()="Male"]')
     SAVE_BUTTON_2 = (By.XPATH, '// button[text() = " Save "]')
-    success_toast_message = (By.XPATH, "//div[@id='oxd-toaster_1']")
+    
 
     try:
         # Navigates to add employee page from dashboard page
